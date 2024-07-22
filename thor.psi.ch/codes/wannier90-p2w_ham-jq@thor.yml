@@ -1,0 +1,8 @@
+append_text: ""
+computer: thor
+default_calc_job_plugin: wannier90.wannier90
+description: Wannier90 from Junfeng's fork on branch p2w_ham on Thor
+filepath_executable: "/mnt/home/software/wannier90-p2w_ham-jq/src/wannier90.x"
+label: wannier90-p2w_ham-jq
+prepend_text: "source /mnt/home/software/wannier90-p2w_ham-jq/source.sh"
+use_double_quotes: "False"
