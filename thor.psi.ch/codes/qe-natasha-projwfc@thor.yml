@@ -1,0 +1,8 @@
+append_text: ""
+computer: thor
+default_calc_job_plugin: quantumespresso.projwfc
+description: QE projwfc.x compiled for Natasha on Thor
+filepath_executable: "/mnt/home/software/qe-natasha/src/bin/projwfc.x"
+label: qe-natasha-projwfc
+prepend_text: "source /mnt/home/software/qe-natasha/source.sh"
+use_double_quotes: "False"

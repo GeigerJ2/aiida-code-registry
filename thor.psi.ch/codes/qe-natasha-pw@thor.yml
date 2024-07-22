@@ -1,0 +1,8 @@
+append_text: ""
+computer: thor
+default_calc_job_plugin: quantumespresso.pw
+description: QE pw.x compiled for Natasha on Thor
+filepath_executable: "/mnt/home/software/qe-natasha/src/bin/pw.x"
+label: qe-natasha-pw
+prepend_text: "source /mnt/home/software/qe-natasha/source.sh"
+use_double_quotes: "False"
