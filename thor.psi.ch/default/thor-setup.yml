@@ -6,7 +6,7 @@ hostname: lms-login.psi.ch
 label: thor
 mpiprocs_per_machine: 48
 mpirun_command: mpirun -np {tot_num_mpiprocs}
-prepend_text: ''
+prepend_text: 'export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK'
 scheduler: core.slurm
 shebang: '#!/bin/bash'
 transport: core.ssh
