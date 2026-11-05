@@ -1,0 +1,10 @@
+---
+append_text: ''
+computer: thor
+default_calc_job_plugin: quantumespresso.pw
+description: QE 7.5 on Thor compiled with gfortran (libxc 7.0.0, parallel HDF5)
+filepath_executable: /mnt/home/software/qe/7.5-gf/bin/pw.x
+label: qe-7.5-gf-pw
+prepend_text: source /mnt/home/software/qe/7.5-gf/source.sh
+use_double_quotes: 'False'
+with_mpi: 'True'

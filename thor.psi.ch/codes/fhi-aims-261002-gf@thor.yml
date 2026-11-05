@@ -1,0 +1,12 @@
+---
+append_text: ''
+computer: thor
+default_calc_job_plugin: fhi_aims
+description: FHI-aims 261002 on Thor compiled with gfortran (OpenBLAS, libxc 6.1.0, parallel HDF5; faster for hybrid functionals, no FFT support)
+filepath_executable: /mnt/home/software/fhi-aims/261002-gf/bin/aims.261002.hdf5.scalapack.mpi.x
+label: fhi-aims-261002-gf
+prepend_text: |
+    source /mnt/home/software/fhi-aims/261002-gf/source.sh
+    export OMPI_MCA_hwloc_base_binding_policy=core  # = mpirun --bind-to core
+use_double_quotes: 'False'
+with_mpi: 'True'

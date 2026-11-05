@@ -1,0 +1,10 @@
+---
+append_text: ''
+computer: thor
+default_calc_job_plugin: fhi_aims
+description: FHI-aims 261002 on Thor compiled with the Intel OneAPI compiler suite (MKL, libxc 6.1.0, parallel HDF5; faster for semilocal DFT, has FFT support)
+filepath_executable: /mnt/home/software/fhi-aims/261002-ioapi/bin/aims.261002.hdf5.scalapack.mpi.x
+label: fhi-aims-261002-ioapi
+prepend_text: source /mnt/home/software/fhi-aims/261002-ioapi/source.sh
+use_double_quotes: 'False'
+with_mpi: 'True'
