@@ -1,2 +1,4 @@
 ---
+backend: asyncssh
 safe_interval: 5.0
+use_login_shell: true
